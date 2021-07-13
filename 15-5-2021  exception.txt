@@ -1,0 +1,24 @@
+Exception = runtime error is known as exception in oop
+
+
+we can categorized error in two category
+
+1) compile time error -- compiler --- developer
+2) run time error
+
+div ==>
+10
+0
+10/0
+
+input : enter age : 25.5 [ int ]
+
+
+input : enter age : 25 [ int ]
+
+exception handling??
+10/0==>
+25.5
+
+
+

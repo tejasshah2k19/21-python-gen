@@ -1,0 +1,44 @@
+india-covid-vaccine-daily-counter  
+
+admin:-
+	1 Add Vaccination Detail 
+	2 View Vaccination Detail 
+	0 exit 
+
+	Enter choice
+	1
+		Enter Male Count
+		25
+		Enter Female Count
+		24
+		Enter Date 
+		06-05-2021
+
+
+	1 Add Vaccination Detail 
+	2 View Vaccination Detail 
+	0 exit 
+	
+	Enter choice
+	1
+		Enter Male Count
+		250
+		Enter Female Count
+		240
+		Enter Date 
+		07-05-2021
+
+
+	1 Add Vaccination Detail 
+	2 View Vaccination Detail 
+	0 exit 
+
+	Enter choice 
+	2
+	Date   	     MaleCount	  FemaleCount	TotalCount 
+	06-05-2021	25		24	   49
+	07-05-2021	250		240	   490
+
+
+ 
+	

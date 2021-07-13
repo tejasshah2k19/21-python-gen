@@ -1,0 +1,38 @@
+Task1 :
+Sample Input : 12324.134
+
+Sample Output :
+US: $12,324.13
+India: Rs.12,324.13
+China: ￥12,324.13
+France: 12 324,13 €
+
+Task2 :
+Take email and password from user. validate input data using validation.
+Validation Rule:
+1) email must contains single dot and @ symbol
+2) password must be >=8 in length
+3) password must contains 1 special symbol 1 upper & lower letter and 1 digit
+4) email must not start with digit
+5) password must not start with digit
+
+
+Task 3:
+Input:
+Goodbye bye bye world world world
+Sam went went to to to his business
+Reya is is the the best player in eye eye game
+in inthe
+Hello hello Ab aB
+
+output:
+Goodbye bye world
+Sam went to his business
+Reya is the best player in eye game
+in inthe
+Hello Ab
+
+
+
+
+

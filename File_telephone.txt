@@ -1,0 +1,142 @@
+The Problem
+
+Your family phone bill has been rising and you want to find out how much time family members are spending on phone calls, the internet and looking at their devices. You have collected information from multiple sources and placed it in a text file which has a line for every time a family member makes a phone call, transfers data over the internet, or has the screen turned on. The format of the file is a series of records split into fields by the ‘|’ character. The format looks like this:
+
+name|callNumber|callMinutes|dataBytes|screenTime
+
+The name is the family member the record is for. Fields which are not needed are filled with zeroes. Note that times are entered as fractional minutes. The following in an example of the input file.
+
+
+Billy Bob|4162223344|24.2|0|47.5
+Sue Ellen|4162234455|38.0|8834|78.3
+Jimmy Joe|4164442288|91.0|26537|21.4
+Sue Ellen|0000000000|0|78849|45.8
+Sally Sue|4163334567|18.2|0|19.1
+Sally Sue|0000000000|0|56749|31.0                                                                                                      
+Sally Sue|4162286628|3.4|0|3.9
+
+
+A program is needed which will:
+
+-Read the information in the text file and store it,
+-Print a menu asking which option the user wants to perform,
+-Be able to sum the phone call duration for each user and print out the total time for each user sorted into ascending order,
+-Be able to sum the data usage for each user and print out the total byte usage for each user sorted into ascending order,
+-Be able to sum the screen time for each user and print out the total screen time for each user sorted into ascending order,
+-Print a listing of all activity for each user,
+-Print all times in minutes and seconds.
+
+The following is an example of running the program on the data above.
+
+
+--------------------------------------------------------- SAMPLE OUTPUT -------------------------------------------------------
+
+Select one of the following options:
+0 - Exit
+1 - Show users by call duration
+2 - Show users by data usage
+3 - Show users by screen time
+4 - Show all user data
+1
+                          User  Call Duration
+                     Sally Sue          21:36
+                     Billy Bob          24:12
+                     Sue Ellen          38:00
+                     Jimmy Joe          91:00
+
+Select one of the following options:
+0 - Exit
+1 - Show users by call duration
+2 - Show users by data usage
+3 - Show users by screen time
+4 - Show all user data
+2
+                          User     Data Usage
+                     Billy Bob              0
+                     Jimmy Joe          26537
+                     Sally Sue          56749
+                     Sue Ellen          87683
+
+Select one of the following options:
+0 - Exit
+1 - Show users by call duration
+2 - Show users by data usage
+3 - Show users by screen time
+4 - Show all user data
+3
+                          User    Screen Time
+                     Jimmy Joe          21:24
+                     Billy Bob          47:30
+                     Sally Sue          54:00
+                     Sue Ellen         124:06
+
+Select one of the following options:
+
+0 - Exit
+1 - Show users by call duration
+2 - Show users by data usage
+3 - Show users by screen time
+4 - Show all user data
+4
+---------------------------------------------
+User: Billy Bob
+  Number Called  Duration
+     4162223344     24:12
+Screen Minutes
+          47:30
+---------------------------------------------
+User: Sue Ellen
+  Number Called  Duration
+     4162234455     38:00
+Bytes Transferred
+              8834
+             78849
+Screen Minutes
+          78:18
+          45:48
+---------------------------------------------
+User: Jimmy Joe
+  Number Called  Duration
+     4164442288     91:00
+Bytes Transferred
+             26537
+Screen Minutes
+          21:24
+---------------------------------------------
+User: Sally Sue
+  Number Called  Duration
+     4163334567     18:12
+     4162286628      3:24
+Bytes Transferred
+             56749
+Screen Minutes
+          19:06
+          31:00
+           3:54
+
+Select one of the following options:
+0 - Exit
+1 - Show users by call duration
+2 - Show users by data usage
+3 - Show users by screen time
+4 - Show all user data
+0
+
+Goodbye
+----------------------- END OF SAMPLE OUTPUT -----------------------
+
+You should write a program which can:
+
+-Read the data from a file called “phoneIn.txt”,
+-Store the data in a well-designed set of data structures,
+-Be able to sort the data on various criteria,
+-Be able to produce the required output that is similar to the sample.
+
+
+
+
+
+
+
+
+ 

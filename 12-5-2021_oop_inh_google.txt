@@ -1,0 +1,38 @@
+In GoogleInc, they are starting coding championship for hiering talent. each user have certain details that they need like , uniqId , firstName,lastName,and email.
+
+later they add two category for coders,
+1) BackEndDeveloper and 2) FrontEndDeveloper
+
+both have different skills ,
+backenddev can design code using java ,python etc lang backend dev can have more than one skills.
+while this skills are not in frontend dev ,they have knoweledge of tools , they know how to use dreamviewer,visualcode,etc. they also know more than one tools.
+
+when any codeers enroll in google code championship ,
+we have to capture all the information.
+
+you have to create 1 backend developer and 1 frontend developer.
+
+===SAMPLE OUTPUT======
+
+Enter FirstName:A
+Enter LastName:B
+Enter Email:A@B.com
+Enter your skills by comma seprated: java,python,c#
+Your uniq id is 4568.
+Thank you
+
+Enter FirstName:C
+Enter LastName:D
+Enter Email:C@D.com
+Enter your Tools Name by comma seprated: Vs , Photoshop
+Your uniq id is 4555.
+Thank you
+
+
+hint : use inheritance,super(),self,overriding,list
+
+
+
+
+
+
